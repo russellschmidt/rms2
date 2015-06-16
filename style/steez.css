@@ -1,0 +1,78 @@
+/* Stylesheet steez.css 
+   standard browser stylesheet */
+
+ /* 1st import normalize.css from https://github.com/jonathantneal/normalize.css */
+@import url('normalize.css') all;
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Arial';
+}
+
+p, ul, li {
+ font-family: 'Times New Roman';
+}
+
+/* background */
+html {
+  background: url(../images/bg.JPG) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Layout */
+div>header>h6 {
+ text-align: right;
+ font-size: 1.4em;
+ letter-spacing: 0.85em;
+ background-color: #fff;
+ min-height: 1.6em;
+ line-height: 1.4em;
+ width: 105%;
+ padding-top: 0.3em;
+ font-variant: small-caps;
+ font-weight: 600;
+}
+
+div>header>h6>span {
+ margin-right: 7%;
+}
+
+/* front page navigation */
+
+nav>div.topnav {
+ background-color: #eee;
+ text-align: right;
+ width: 105%;
+}
+
+nav>div.topnav>p {
+ margin-right: 8%;
+}
+
+nav>div.topnav>p>a {
+ text-decoration: none;
+ color: #028482;
+ font-size: 0.9em;
+}
+
+/* login form */
+div#loginForm {
+ width: 180px;
+ background: #FFF;
+ margin: 5%;
+ padding: 1%;
+}
+
+div#loginForm>h2 {
+ padding: 0;
+ margin: 0;
+ font-size: 1.3em;
+}
+
+div#loginForm>a {
+ text-decoration: none;
+ color: #028482;
+ font-size: 0.9em;
+}
