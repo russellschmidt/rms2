@@ -4,7 +4,7 @@
  <title>Home</title>
  <!-- standard browser window css -->
 
- <link rel="stylesheet" href="style/steez.css" type="text/css"> 
+ <link rel="stylesheet" href="style/steez.css" type="text/css">
 
 </head>
 <body>
